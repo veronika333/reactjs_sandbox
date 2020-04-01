@@ -51,13 +51,13 @@ changeHandler = event => {
     <input type="text" name="message" onChange={this.changeHandler} />
   <br />
   </form>
-  <box>
+  <main>
         <h2>This is your input</h2>
-    <p>{this.state.first_name}</p>
-    <p>{this.state.last_name}</p>
-    <p>{this.state.phone}</p>
-    <p>{this.state.message}</p>
-    </box>
+    <label>First name: </label><p>{this.state.first_name}</p><br />
+    <label>Last name: </label><p>{this.state.last_name}</p><br />
+    <label>Phone: </label><p>{this.state.phone}</p><br />
+    <label>Message: </label><p>{this.state.message}</p><br />
+    </main>
       </div>
     )
   }

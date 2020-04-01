@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 div {
   margin: 7px;
 }
@@ -51,7 +52,8 @@ input{
 label {
   width: 150px;
   clear: both;
-  display: inline-block;
+ display: inline-block;
+ margin: 6px;
 }
 form {
   width: 600px;
@@ -59,7 +61,16 @@ background-color: cornflowerblue;
 clear: both;
 padding: 20px;
 }
-box {
+main {
   width: 600px;
   background-color: rgb(241, 225, 160);
+  height: 220px;
+  padding: 20px;
+  clear: both;
+}
+p {
+  font-family: 'Rochester', cursive;
+  display: inline-block;
+  margin: 0px;
+  font-size: 23px;
 }
