@@ -20,6 +20,7 @@ const getRndInteger = (min, max) => {
 next = () => {
 if (this.state.rounds >= 2) {
   this.endHandler();
+  return;
 }
 
 let nextActive = undefined;
@@ -49,6 +50,10 @@ audio.play();
      })
    }
    startHandler = () => {
+     //music code below
+     let audio_start = new Audio("/start_music.mp3");
+     audio_start.play();
+     //music code above
      this.next();
    };
    endHandler = () => {
