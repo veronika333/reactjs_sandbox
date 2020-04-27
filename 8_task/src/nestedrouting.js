@@ -4,14 +4,14 @@ import {BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams} 
 const Nav = () => {
     return (
         <div>
-            Hello world!
+            Veronika
             <nav>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">About me</Link>
                     </li>
                     <li>
                         <Link to="/courses">Courses</Link>
