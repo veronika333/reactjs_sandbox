@@ -1,0 +1,28 @@
+.aboutMe {
+    margin: 2% 3% 2% 3%;
+    background: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+
+}
+.avatar-image {
+    width: 70%;
+    grid-column: 1;
+}
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 2fr;
+text-align: center;
+justify-content: center;
+width: 80%;
+margin-bottom: 2%;
+}
+.about-text {
+    grid-column: 2;
+    margin-left: 4%;
+    text-align: left;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+    color: white;
+}
+header {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 2fr 8fr;
+}
+#logo {
+    grid-row: 1;
+    grid-column: 1;
+    margin: 2rem;
+
+}
+nav {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 50%;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
+Link {
+    text-decoration: none;
+}

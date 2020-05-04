@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Simplerouting from './simplerouting';
-import Nestedrouting from "./nestedrouting";
-import Portfolio from "./portfolio";
+
 ReactDOM.render(
-  <Portfolio />,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
