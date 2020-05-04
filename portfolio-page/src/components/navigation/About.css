@@ -7,11 +7,16 @@
     height: 90%;
     justify-content: center;
     padding-top: 2em;
+    background: radial-gradient(#ff8297, #fff);
+    border-radius: 3%;
 
 }
 .avatar-image {
     width: 60%;
     grid-column: 1;
+    text-align: center;
+    border-radius: 3%;
+    margin-left: 4%;
 }
 
 .grid {

@@ -18,6 +18,9 @@ const DesktopNavbar = () => {
                 <li>
                     <Link to="/blog" className="Link">Blog</Link>
                 </li>
+                <li>
+                <Link to="/form" className="Link">Form</Link>
+                </li>
             </ul>
 </div>
         </div>

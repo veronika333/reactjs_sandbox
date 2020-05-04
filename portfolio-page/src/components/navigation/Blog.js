@@ -24,7 +24,7 @@ return (
     <Card.Text>
       {postinfo.desc}
     </Card.Text>
-    <Button variant="link"><Link to={`${match.url}/${postinfo.title}`}>Read more</Link></Button>
+    <Button variant="outline-info"><Link className="links" to={`${match.url}/${postinfo.title}`}>Read more</Link></Button>
   </Card.Body>
 </Card>
 

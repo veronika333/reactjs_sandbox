@@ -69,8 +69,24 @@ display: inline-block;
 }
 .singlePostBox {
   text-align: center;
-  margin-top: 3%;
+  margin: auto;
+  margin-top: 2%;
+  width: 40%; 
 }
 body {
   background: radial-gradient(#f7cccc, #ffff);
+}
+.messageForm {
+  width: 100%;
+  padding: 2% 30%;
+  margin: auto;
+  height: 100%; 
+}
+.links {
+  color: black;
+}
+.links:hover {
+color: white;
+font-weight: bold;
+text-decoration: none;
 }
