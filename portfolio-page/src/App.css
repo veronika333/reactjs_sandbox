@@ -40,7 +40,7 @@
 .greeting {
   text-align: center;
   font-size: 5rem;
-  margin-top: 7%;
+  padding: 7%;
 }
 img {
   width: 40%;
@@ -70,4 +70,7 @@ display: inline-block;
 .singlePostBox {
   text-align: center;
   margin-top: 3%;
+}
+body {
+  background: radial-gradient(#f7cccc, #ffff);
 }

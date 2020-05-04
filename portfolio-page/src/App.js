@@ -9,9 +9,11 @@ import Blog from './components/navigation/Blog';
 const Home = () => {
   return (
       <div>
+        <body>
            <div className="greeting">
       Welcome to My Homepage
     </div>
+    </body>
       </div>
   )
 }
