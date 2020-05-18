@@ -7,8 +7,10 @@ import Button from 'react-bootstrap/Button';
 
 const FormPage = () => {
     return (
+      <div>
+        <br/>
+      <h1>CREATE YOUR OWN POST</h1><br/>
         <Form className="messageForm">
-          <h1>Create Post</h1><br/>
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email</Form.Label>
     <Form.Control type="email" placeholder="name@example.com" />
@@ -35,6 +37,7 @@ const FormPage = () => {
     Submit
   </Button>
 </Form>
+</div>
       );  
 }
 export default FormPage;

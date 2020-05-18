@@ -1,4 +1,4 @@
-.aboutMe {
+/* .aboutMe {
     margin: 2% 3% 2% 3%;
     background: white;
     padding: 2%;
@@ -7,16 +7,15 @@
     height: 90%;
     justify-content: center;
     padding-top: 2em;
-    background: radial-gradient(#ff8297, #fff);
+    background: radial-gradient(#fdabb9, #fff);
     border-radius: 3%;
-
-}
+} */
 .avatar-image {
-    width: 60%;
+    width: 90%;
     grid-column: 1;
     text-align: center;
     border-radius: 3%;
-    margin-left: 4%;
+    margin-left: 6%;
 }
 
 .grid {
@@ -24,12 +23,14 @@ display: grid;
 grid-template-columns: 1fr 2fr;
 text-align: center;
 justify-content: center;
-width: 80%;
+width: 100%;
 margin-bottom: 2%;
+padding: 4%;
+padding-right: 4%;
 }
 .about-text {
     grid-column: 2;
-    margin-left: 4%;
+    margin-left: 5%;
     text-align: left;
 }
 h1 {
