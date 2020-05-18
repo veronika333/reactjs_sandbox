@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouteMatch, Route, Switch, Link } from "react-router-dom";
 //import postinfo from "./postinfo";
-import Post from "./Post";
+import Post from "../Post/Post";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -35,18 +35,7 @@ const removeHandler = (id) => {
   };
 
   const PostList = post.map((p) => {
-    // return (
-    //   <Post
-    //     key={p.id}
-    //     title={p.title}
-    //     author={p.author}
-    //     desc={p.desc}
-    //     img={p.img}
-    //     //img={p.thumbnailUrl}
-    //     link={`${match.url}/${p.id}`}
-    //     remove={() => removeHandler(p.id)}
-    //   />
-    // );
+  
     return (
       <div className="wrapper" key={p.id}>
        
@@ -82,40 +71,5 @@ const removeHandler = (id) => {
     </>
   );
 };
-// const Blog = () => {
-//   let match = useRouteMatch();
-
-//   const postList = postinfo.map((postinfo) => {
-// return (
-  
-//         <div key={postinfo.id}>
-         
-           
-//             <Card>
-//   <Card.Img variant="top" src={postinfo.img} style={{width: '100%'}} alt={postinfo.title} />
-//   <Card.Body>
-//     <Card.Title>{postinfo.title}</Card.Title>
-//     <Card.Text>
-//       {postinfo.desc}
-//     </Card.Text>
-//     <Button variant="outline-info"><Link className="links" to={`${match.url}/${postinfo.title}`}>Read more</Link></Button>
-//   </Card.Body>
-// </Card>
-
-// </div>
-//     );
-//   });
-//   return (
-//     <div>
-//       <Switch>
-//         <Route path="/blog/:postId">
-//           <Post />
-//         </Route>
-//         <div className="wrapper">
-//   <Route path={match.path}>{postList}</Route></div>
-//       </Switch>
-//     </div>
-//   );  
-// };
 
 export default Blog;

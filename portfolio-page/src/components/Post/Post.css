@@ -1,0 +1,11 @@
+.singlePost {
+    text-align: center;
+    margin: auto;
+    grid-column: 2;
+  }
+  .singlePostBox {
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    width: 40%; 
+  }

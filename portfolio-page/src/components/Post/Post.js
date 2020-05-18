@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useRouteMatch, Link, useParams } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
+import './Post.css';
 
 const Post = () => {
 const [loadedPost, setLoadedPost] = useState();
@@ -38,17 +39,5 @@ if (loadedPost) {
   }
     return postData; 
 }
-// const Post = ({title, img, desc}) => {
-//     return (
-//         <div className="singlePostBox">
-//             <Card className="singlePost">
-// <Card.Img src={img} alt={title} />
-        
-//     <Card.Title>{title}</Card.Title>
-//     <Card.Text>{desc}</Card.Text>
-//     <Button variant="outline-info"><Link to="/blog" className="links">Go Back</Link></Button>
-//             </Card>
-//         </div>
-//     );
-// };
+
 export default Post;
