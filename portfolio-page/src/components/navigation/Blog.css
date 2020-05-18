@@ -23,3 +23,8 @@ h1 {
     left: 0.5em;
     margin-right: -50%;
   }
+ .wrapper .btn {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+  }

@@ -2,7 +2,7 @@ const postinfo = [
     {
         id: 1,
         title: "Post 1",
-        desc: "Some quick example text to build on the card title and make up the bulk of the content.",
+        desc: "Some quick example text to build on the card title and make up the bulk.",
         img: "https://d2hy56m2o6qi9y.cloudfront.net/wp-content/uploads/2020/04/02120441/Makeup-capsule.jpg"
     },
     {

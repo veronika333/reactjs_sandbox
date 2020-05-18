@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { useRouteMatch, Route, Switch, Link } from "react-router-dom";
 //import postinfo from "./postinfo";
 import Post from "./Post";
-import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -59,6 +58,7 @@ const removeHandler = (id) => {
  {p.desc}
 </Card.Text>
 <Button variant="outline-info"><Link className="links" to={`${match.url}/${p.id}`}>Read more</Link></Button>
+<Button variant="outline-info" onClick={() => removeHandler(p.id)}>Delete</Button>
 </Card.Body>
 </Card>
 
