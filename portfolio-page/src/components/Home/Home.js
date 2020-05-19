@@ -5,7 +5,7 @@ const Home = () => {
     return (
              <div className="greeting">        
        <h1>HELLO & WELCOME TO MY BLOG</h1>
-        <img src="https://lh3.googleusercontent.com/proxy/TpF3fM_vVzvlI3b9SvfUecoU0SNageeOAuoGjR5NQX9B-6zN-Yh3efaF4nbS3jEou96lqczZyDoj9VvdbLmQmij1pJppRgRbjRg00JiYoLqQn2qfi0wrF931nUk" />
+        <img src="https://images.unsplash.com/photo-1517258816664-87df4bbe5c1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
       </div> 
     )
   }
